@@ -33,7 +33,7 @@ $(document).ready(function () {
       }
       document.getElementById("windows_space").innerHTML = windows;
     } else {
-      window.location.href = "/maze.html";
+      window.location.href = "maze.html";
     }
     count++;
   });
