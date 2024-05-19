@@ -1,0 +1,191 @@
+.index {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.congrats {
+  background-color: transparent;
+  z-index: 1;
+}
+
+/********************************************************
+******************      fonts     ***********************
+********************************************************/
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+.inter_regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter_bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter_italic {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -10;
+}
+
+.regular {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15
+}
+
+/********************************************************
+******************     colors     ***********************
+********************************************************/
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #000000;
+}
+
+.grey {
+  color: #D9D9D9;
+}
+
+.brown {
+  color: #B86A59;
+}
+
+.background_brown {
+  background: #B86A59;
+}
+
+.background_white {
+  background: #FFFFFF;
+}
+
+.background_black {
+  background: #000000;
+}
+
+.background_grey {
+  background: #D9D9D9;
+}
+
+
+
+/********************************************************
+******************   index page   ***********************
+********************************************************/
+
+.title {
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+  top: 25vh;
+  width: 50vw;
+}
+
+.title_container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 23px;
+  width: 139px; 
+  height: 69px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.index_button_wrapper {
+  position: relative;
+  top: 30vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.window {
+  display: none;
+  background: #FFFFFF;
+  opacity: 0.75;
+  width: 20vw;
+  height: 40vh;
+}
+
+.window:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.window p {
+  text-align: center;
+  font-size: 64px;
+  color: #000000;
+  opacity: 1;
+}
+
+#window_space {
+  z-index: 1;
+}
+
+.maze_short_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 600px;
+}
+
+.maze_short {
+  position: absolute;
+  width: 315px;
+  height: 560px;
+}
+
+.amusing_pics {
+  width: 50vw; 
+  left: 25vw; 
+  position: relative
+}
+
+.top_sticky_button {
+  position: sticky;
+  top: 10px;
+  z-index: 9999;
+}
+
+.bottom_sticky_button {
+  position: sticky;
+  bottom: 10px;
+  z-index: 9999;
+}
+
+#maze_timer:hover {
+    cursor: auto;
+  opacity: 1;
+}
